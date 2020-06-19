@@ -62,6 +62,7 @@ public class RecyclerViewAdapterTwoThreeTrip extends RecyclerView.Adapter<Recycl
                 intent.putExtra("Description9", mData.get(position).getDescription9());
                 intent.putExtra("Description10", mData.get(position).getDescription10());
                 intent.putExtra("Description11", mData.get(position).getDescription11());
+                intent.putExtra("Description12", mData.get(position).getDescription12());
 
 
                 intent.putExtra("Category", mData.get(position).getCategory());

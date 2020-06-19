@@ -10,7 +10,7 @@
         android:id="@+id/cafe_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/MainColor"
+        android:background="#404A7C"
         app:titleTextColor="@android:color/white" />
 
     <RelativeLayout

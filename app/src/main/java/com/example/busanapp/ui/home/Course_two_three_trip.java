@@ -18,6 +18,7 @@ public class Course_two_three_trip {
     private String Description9;
     private String Description10;
     private String Description11;
+    private String Description12;
 
     private int Thumbnail;
     private int Thumbnail2;
@@ -42,7 +43,7 @@ public class Course_two_three_trip {
                                  String description6
             , String description7,String description8
             , String description9,String description10
-            , String description11,int thumbnail, int thumbnail2, int thumbnail3, int thumbnail4, int thumbnail5, int thumbnail6
+            , String description11, String description12,int thumbnail, int thumbnail2, int thumbnail3, int thumbnail4, int thumbnail5, int thumbnail6
             ,
                                  int thumbnail7, int thumbnail8
             ,
@@ -66,6 +67,7 @@ public class Course_two_three_trip {
         Description9 = description9;
         Description10 = description10;
         Description11 = description11;
+        Description12 = description12;
 
         //사진
         Thumbnail2 = thumbnail2;
@@ -125,6 +127,9 @@ public class Course_two_three_trip {
     }
     public String getDescription11() {
         return Description11;
+    }
+    public String getDescription12() {
+        return Description12;
     }
 
 
